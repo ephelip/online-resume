@@ -1,0 +1,49 @@
+{
+  "name": "react-skeleton",
+  "version": "1.0.1",
+  "description": "A skeleton for react app / Contains a form skeleton, a list manager skeleton, a navbar skeleton",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js",
+    "server": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ephelip/react-skeleton.git"
+  },
+  "keywords": [
+    "react",
+    "skeleton",
+    "reflux",
+    "bootstrap",
+    "babel",
+    "browserify",
+    "babelify",
+    "express"
+  ],
+  "author": "Etienne Phelip",
+  "emails": [
+    "etienne.phelip@gmail.com"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ephelip/react-skeleton/issues"
+  },
+  "homepage": "https://github.com/ephelip/react-skeleton#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "body-parser": "^1.15.0",
+    "browserify": "^13.0.0",
+    "email-validator": "^1.0.4",
+    "express": "^4.13.4",
+    "history": "^1.13.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-router": "^2.0.0",
+    "reflux": "^0.3.0",
+    "watchify": "^3.7.0",
+    "whatwg-fetch": "^0.11.0"
+  }
+}
